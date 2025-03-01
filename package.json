@@ -1,5 +1,5 @@
 {
-  "name": "ghost-storage-cloudinary",
+  "name": "ghost-storage-cloudinary-v2",
   "version": "3.0.1",
   "description": "Cloudinary storage adapter for Ghost",
   "main": "index.js",
@@ -14,7 +14,10 @@
     "storage",
     "storage-adapter"
   ],
-  "repository": "https://github.com/decoded-cipher/ghost-storage-cloudinary",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decoded-cipher/ghost-storage-cloudinary.git"
+  },
   "bugs": {
     "url": "https://github.com/decoded-cipher/ghost-storage-cloudinary/issues"
   },
